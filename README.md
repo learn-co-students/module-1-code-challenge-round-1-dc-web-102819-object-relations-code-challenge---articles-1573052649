@@ -2,6 +2,8 @@
 
 For this assignment, you will be working with a Magazine domain.
 
+
+
 We have three models: `Author`, `Article`, and `Magazine`.
 
 For our purposes, an `Author` has many `Article`s, a `Magazine` has many `Article`s, and `Article`s belong to both `Author` and `Magazine`.
@@ -46,47 +48,47 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 #### Author
 
-- `Author#initialize(name)`
-  - An author is initialized with a name, as a string.
-  - A name **cannot** be changed after it is initialized.
-- `Author#name`
-  - Returns the name of the author
+<!-- - `Author#initialize(name)`
+  - An author is initialized with a name, as a string. -->
+  <!-- - A name **cannot** be changed after it is initialized. -->
+<!-- - `Author#name`
+  - Returns the name of the author -->
 
 #### Magazine
 
 - `Magazine#initialize(name, category)`
-  - A magazine is initialized with a name as a string and a category as a string
-  - The name and category of the magazine **can be** changed after being initialized.
-- `Magazine#name`
-  - Returns the name of this magazine
-- `Magazine#category`
-  - Returns the category of this magazine
-- `Magazine.all`
-  - Returns an array of all Magazine instances
+  <!-- - A magazine is initialized with a name as a string and a category as a string -->
+  <!-- - The name and category of the magazine **can be** changed after being initialized. -->
+<!-- - `Magazine#name`
+  - Returns the name of this magazine -->
+<!-- - `Magazine#category`
+  - Returns the category of this magazine -->
+<!-- - `Magazine.all`
+  - Returns an array of all Magazine instances -->
 
 #### Article
 
-- `Article#initialize(author, magazine, title)`
+<!-- - `Article#initialize(author, magazine, title)`
   - An article is initialized with an author as an Author object, a magazine as a Magazine object, and title as a string.
-  - An article **cannot** change its author, magazine, or title after it is has been initialized.
-- `Article#title`
-  - Returns the title for that given article
-- `Article.all`
-  - Returns an array of all Article instances
+  - An article **cannot** change its author, magazine, or title after it is has been initialized. -->
+<!-- - `Article#title`
+  - Returns the title for that given article -->
+<!-- - `Article.all`
+  - Returns an array of all Article instances -->
 
 ### Object Relationship Methods
 
-#### Article
+<!-- #### Article
 
 - `Article#author`
   - Returns the author for that given article
 - `Article#magazine`
-  - Returns the magazine for that given article
+  - Returns the magazine for that given article -->
 
 #### Author
 
-- `Author#articles`
-  - Returns an array of Article instances the author has written
+<!-- - `Author#articles`
+  - Returns an array of Article instances the author has written -->
 - `Author#magazines`
   - Returns a **unique** array of Magazine instances for which the author has contributed to
 
